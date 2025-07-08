@@ -6,7 +6,6 @@ IntervalScribe AI is a productivity tool that automatically captures, OCRs, and 
 - Automatic screen capture at user-defined intervals
 - Optical Character Recognition (OCR) to extract text from screenshots
 - Real-time activity logging and summarization
-- Modern, dark-themed Tkinter GUI
 - Summarize your day with a single click
 - Customizable interval, logging, and display options
 
