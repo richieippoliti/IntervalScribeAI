@@ -4,7 +4,7 @@ from tracker import Tracker
 from summarizer import summarize_day
 import time
 
-class AutoscribeGUI:
+class IntervalScribeGUI:
     def __init__(self, root):
         # Modern dark theme colors
         BG_COLOR = "#23272e"
@@ -22,7 +22,7 @@ class AutoscribeGUI:
         FRAME_BG = "#282c34"
 
         self.root = root
-        self.root.title("Autoscribe AI")
+        self.root.title("IntervalScribe AI")
         self.root.minsize(900, 650)
         self.root.configure(bg=BG_COLOR)
         self.tracker = None
@@ -32,7 +32,7 @@ class AutoscribeGUI:
         self.timer_updater = None
 
         # Title label
-        title_label = tk.Label(root, text="🕒 Autoscribe AI", font=TITLE_FONT, fg=ACCENT_COLOR, bg=BG_COLOR)
+        title_label = tk.Label(root, text="🕒 IntervalScribe AI", font=TITLE_FONT, fg=ACCENT_COLOR, bg=BG_COLOR)
         title_label.pack(pady=(18, 0))
 
         # Timer label
