@@ -8,10 +8,11 @@ IntervalScribe AI is a productivity tool that automatically captures, OCRs, and 
 - Real-time activity logging and summarization
 - Summarize your day with a single click
 - Customizable interval, logging, and display options
+- Modern, clean UI built with CustomTkinter
 
 ## Technologies Used
 - **Python 3**: Core programming language
-- **Tkinter**: Native Python GUI framework for the desktop interface
+- **CustomTkinter**: Modern Python GUI framework for the desktop interface
 - **pytesseract**: Python wrapper for Tesseract OCR engine
 - **Tesseract OCR**: Open-source OCR engine (must be installed separately)
 - **python-dotenv**: For environment variable management
@@ -34,7 +35,7 @@ pip install -r requirements.txt
 ```
 If `requirements.txt` is missing, install manually:
 ```sh
-pip install pytesseract python-dotenv google-generativeai
+pip install customtkinter pytesseract python-dotenv google-generativeai
 ```
 
 ### 3. Install Tesseract OCR
